@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优雅转盘</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Elegant Wheel</div>
+            <div class="nav-links">
+                <a href="#" class="active">转盘</a>
+                <a href="#">历史</a>
+                <a href="#">关于</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>优雅的决策助手</h1>
+        <p class="subtitle">让随机选择变得优雅而简单</p>
+        
+        <div class="container">
+            <div class="left-section">
+                <div class="wheel-container">
+                    <div class="pointer">▶</div>
+                    <canvas id="wheel" width="400" height="400"></canvas>
+                </div>
+                <button id="spinButton">开始</button>
+            </div>
+            
+            <div class="options-panel">
+                <h2>选项列表</h2>
+                <div id="optionsList"></div>
+                <button id="addOption">添加选项</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>关于</h3>
+                <p>优雅转盘致力于为您提供最简单的随机选择工具</p>
+            </div>
+            <div class="footer-section">
+                <h3>联系我们</h3>
+                <p>邮箱：contact@elegantwheel.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>更多</h3>
+                <a href="#">使用指南</a>
+                <a href="#">隐私政策</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Elegant Wheel. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
